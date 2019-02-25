@@ -1,0 +1,1 @@
+A responsive website for a fictional vacation resort.

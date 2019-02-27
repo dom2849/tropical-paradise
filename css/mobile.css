@@ -1,0 +1,60 @@
+
+/* Utility Classes */
+.large-heading{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    line-height: 3rem;
+}
+
+.medium-heading{
+    margin-bottom: .7rem;
+}
+
+.padding-y-large{
+    padding: 2rem 0;
+}
+/* .container{
+    max-width: 500px;
+    margin: auto;
+} */
+/* Home */
+#home{
+    display: block;
+}
+
+.home__header{
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.home__navigation-list{
+    justify-content: center;
+}
+
+.showcase__content{
+    align-items: center;
+    padding: 0 1rem;
+}
+
+/* Amenities */
+#amenities .container .flex-container-horizontal{
+    flex-direction: column;
+}
+
+.amenities__amenity{
+    padding: .7rem 1.6rem;
+}
+
+/* About */
+.about__image{
+    display: none;
+}
+
+.about__content{
+    padding: 2rem 1.6rem 2rem 1.6rem;
+    text-align: left;
+}
+.about__content h2{
+    margin-bottom: 1.5rem;
+}
+
+

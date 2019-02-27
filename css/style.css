@@ -6,6 +6,7 @@
 
 body{
     line-height: 1.8rem;
+    color: #444;
 }
 ul{
     list-style: none;
@@ -43,6 +44,9 @@ a{
 .bg-dark{
     background:#444;;
     color: #fff;
+}
+.bg-light{
+    background: #fafafa;
 }
 .color-light{
     color: #fff;
@@ -141,22 +145,15 @@ a{
 .amenities__amenity span{
     margin-bottom: 1rem;
 }
-.amenities__amenity p,
-.amenities__amenity .small-heading{
-    color: #444;
-}
 
 /* About */
-#about{
-    height: 45vh;
-}
 .about__image{
-    background: linear-gradient(to right, rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)),
+    background: linear-gradient(to right, rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),
     url('../images/seashore.jpeg') no-repeat center center/cover;
     flex: 1;
 }
 
 .about__content{
     flex: 1;
-    padding: 2rem 4rem;
+    padding: 3rem 4rem 4rem 4rem;
 }

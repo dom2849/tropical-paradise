@@ -13,10 +13,6 @@
 .padding-y-large{
     padding: 2rem 0;
 }
-/* .container{
-    max-width: 500px;
-    margin: auto;
-} */
 /* Home */
 #home{
     display: block;
@@ -29,10 +25,11 @@
 .home__navigation-list{
     justify-content: center;
 }
+/* Showcase */
 
 .showcase__content{
-    align-items: center;
-    padding: 0 1rem;
+    justify-content: flex-start;
+    padding: 5rem 1rem;
 }
 
 /* Amenities */
